@@ -1,68 +1,113 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+body{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-  }
-  
-  .todo-container {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .input-section {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #taskInput {
-    flex: 1;
-    padding: 8px;
-    font-size: 16px;
-  }
-  
-  #addTaskBtn {
-    padding: 8px 12px;
-    margin-left: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #taskList {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-  
-  .task-item {
-    background: #e3e3e3;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-  
-  .task-item.completed {
-    text-decoration: line-through;
-    opacity: 0.6;
-  }
-  
-  .delete-btn {
-    background: none;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+.container{
     border: none;
-    color: red;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
+    border-radius: 15px;
+    background-color: rgb(156, 222, 252);
+    height: 50vh;
+    width: 25vw;
+    box-shadow: 4px 5px 6px;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    border-bottom: 0.5px solid white;
+    margin-bottom: 20px;
+}
+
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input{
+    display: 7px;
+    border-radius: 5px;
+}
+
+button::hover{
+    border:1px solid black;
+    box-shadow: 2px 2px 2px;
+}
+
+button{
+    background-color: rgb(244, 242, 153);
+    color: rgb(11, 11, 11);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+    padding: 15px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
